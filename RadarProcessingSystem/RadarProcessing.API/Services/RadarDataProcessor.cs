@@ -225,7 +225,7 @@ namespace RadarProcessing.API.Services
 
     public interface IRadarDataProcessor : IDisposable
     {
-        void AddRadarTarget(RadarTarget target);
+        void AddRadarTarget(RadarTarget target); 
         IEnumerable<RadarTarget> GetActiveTargets();
         RadarTarget? GetTargetById(int id);
         IEnumerable<RadarTarget> GetTargetsByType(TargetType targetType);
