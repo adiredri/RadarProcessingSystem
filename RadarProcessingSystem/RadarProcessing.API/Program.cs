@@ -1,3 +1,5 @@
+using RadarProcessing.API.Services;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -7,6 +9,9 @@ internal class Program
         // Add services to the container.
         builder.Services.AddControllers();
         builder.Services.AddOpenApi();
+
+        // Register RadarDataProcessor as a singleton service for real-time processing
+        builder.Services.AddSingleton<IRadarDataProcessor, RadarDataProcessor>();
 
         var app = builder.Build();
 

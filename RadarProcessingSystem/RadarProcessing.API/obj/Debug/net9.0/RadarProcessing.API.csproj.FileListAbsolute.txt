@@ -31,3 +31,4 @@ C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\De
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\RadarProcessing.API.pdb
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\RadarProcessing.API.genruntimeconfig.cache
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\ref\RadarProcessing.API.dll
+C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\RadarProcessing.API.sourcelink.json
