@@ -24,7 +24,6 @@ C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\De
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\staticwebassets.development.json
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\RadarPro.35A10D04.Up2Date
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\RadarProcessing.API.dll
 C:\GitHub\RadarProcessingSystem\RadarProcessingSystem\RadarProcessing.API\obj\Debug\net9.0\refint\RadarProcessing.API.dll

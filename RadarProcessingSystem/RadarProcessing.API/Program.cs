@@ -10,8 +10,22 @@ internal class Program
         builder.Services.AddControllers();
         builder.Services.AddOpenApi();
 
+        // Add CORS for dashboard access
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowDashboard", policy =>
+            {
+                policy.AllowAnyOrigin()
+                      .AllowAnyMethod()
+                      .AllowAnyHeader();
+            });
+        });
+
         // Register RadarDataProcessor as a singleton service for real-time processing
         builder.Services.AddSingleton<IRadarDataProcessor, RadarDataProcessor>();
+
+        // Add background service for continuous radar simulation
+        builder.Services.AddHostedService<BackgroundRadarService>();
 
         var app = builder.Build();
 
@@ -21,10 +35,13 @@ internal class Program
             app.MapOpenApi();
         }
 
+        // Enable CORS
+        app.UseCors("AllowDashboard");
+
         app.UseHttpsRedirection();
         app.UseAuthorization();
         app.MapControllers();
-         
+
         app.Run();
     }
 }

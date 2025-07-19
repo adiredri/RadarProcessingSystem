@@ -20,7 +20,7 @@ namespace RadarProcessing.API.Services
 
         // Configuration
         private const int PROCESSING_INTERVAL_MS = 50; // 20 Hz processing rate
-        private const int TARGET_TIMEOUT_SECONDS = 30;
+        private const int TARGET_TIMEOUT_SECONDS = 300;
         private const double SIGNAL_THRESHOLD = 25.0;
 
         public RadarDataProcessor(ILogger<RadarDataProcessor> logger)

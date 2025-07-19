@@ -14,7 +14,7 @@
 
         // Calculated properties
         public double DistanceFromOrigin => Math.Sqrt(X * X + Y * Y);
-        public bool IsActive => DateTime.Now.Subtract(Timestamp).TotalSeconds < 30;
+        public bool IsActive => DateTime.UtcNow.Subtract(Timestamp).TotalSeconds < 300;
     }
 
     // Target classification enum
